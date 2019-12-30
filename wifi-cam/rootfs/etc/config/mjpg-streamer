@@ -1,0 +1,16 @@
+
+config mjpg-streamer 'core'
+	option enabled '1'
+	option input 'uvc'
+	option output 'http'
+	option device '/dev/video0'
+	option resolution '752x416'
+	option yuv '0'
+	option quality '80'
+	option fps '1'
+	option led 'auto'
+	option www '/www/webcam'
+	option port '80'
+	option username 'openwrt'
+	option password 'openwrt'
+
